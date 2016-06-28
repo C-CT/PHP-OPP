@@ -1,17 +1,4 @@
-<!doctype html>             <!-- 宣告文件類型-->
-<html lang="zh">            <!--指定網頁使用語言--> 
-    <head>                    <!-- 文件的標頭  -->
-        <meta charset="utf-8">
-        <title>  物件練習	</title>
-
-    </head>
-
-    <body>                    <!--文件主體-->
-        <div> cat1 </div>
-         
-        <div> cat2 </div>
-        
-        <?php
+<?php
         class Pet
         {
            public $name ;
@@ -48,6 +35,3 @@
         echo '第二隻貓的位置' . "x=" .$cat2Position['x'] ." , ". "y=" .$cat2Position['y']  ;
         echo "<br>";       
         ?>
-
-    </body>
-</html>
